@@ -50,8 +50,7 @@ Layout grids help create consistent alignment, hierarchy and structure in interf
 ### Responsive design
 The website includes responsive breakpoints for:
 - Desktop: above 900px.
-- Tablet: 621px–900px.
-- Mobile: 620px and below.
+
 
 Media queries change multi-column layouts into fewer columns or a single-column layout on smaller screens. This follows responsive-design principles where layouts adapt to viewport size and device characteristics (MDN Web Docs, 2026).
 
