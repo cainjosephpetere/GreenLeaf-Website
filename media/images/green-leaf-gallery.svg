@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<rect width="1200" height="700" rx="40" fill="#e9f0e4"/>
+<g fill="#4f8a62">
+<circle cx="220" cy="250" r="120"/><circle cx="510" cy="390" r="150"/><circle cx="830" cy="220" r="130"/><circle cx="1040" cy="470" r="120"/>
+</g>
+<g fill="#c7ddbd">
+<ellipse cx="220" cy="250" rx="45" ry="120" transform="rotate(-35 220 250)"/>
+<ellipse cx="510" cy="390" rx="55" ry="140" transform="rotate(35 510 390)"/>
+<ellipse cx="830" cy="220" rx="45" ry="115" transform="rotate(-25 830 220)"/>
+<ellipse cx="1040" cy="470" rx="45" ry="110" transform="rotate(30 1040 470)"/>
+</g>
+<text x="70" y="100" fill="#163d2b" font-family="Arial" font-size="58" font-weight="700">GREEN LEAF GALLERY</text>
+</svg>

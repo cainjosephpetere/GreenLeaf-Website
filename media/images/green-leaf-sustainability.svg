@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#dcebd6"/><stop offset="1" stop-color="#f7f8f2"/></linearGradient></defs>
+<rect width="1200" height="700" rx="40" fill="url(#s)"/>
+<circle cx="600" cy="340" r="190" fill="#4f8a62"/>
+<path d="M600 500 C470 380 460 230 600 160 C740 230 730 380 600 500Z" fill="#e6f2df"/>
+<path d="M600 490 L600 190" stroke="#315e3d" stroke-width="10"/>
+<path d="M600 320 C520 300 485 270 465 225" fill="none" stroke="#315e3d" stroke-width="9"/>
+<path d="M600 360 C680 335 720 295 740 250" fill="none" stroke="#315e3d" stroke-width="9"/>
+<text x="70" y="95" fill="#163d2b" font-family="Arial" font-size="58" font-weight="700">GROW • REUSE • RESTORE</text>
+</svg>
