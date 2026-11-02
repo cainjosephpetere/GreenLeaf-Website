@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace the placeholder URL with the deployed website URL.
+Sitemap: https://your-github-username.github.io/greenleaf-website/sitemap.xml
