@@ -3,8 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Green Leaf — a fictional South African organisation promoting plant-based, eco-conscious living.">
-  <title>Products | Green Leaf</title>
+  <meta name="robots" content="index, follow">
+  <meta name="keywords" content="eco-friendly products South Africa, botanical body wash, herbal cleaning kit">
+  <meta name="author" content="Cain Joseph Petere">
+  <meta name="theme-color" content="#163d2b">
+  <meta name="description" content="Explore Green Leaf's sample range of plant-inspired personal care, home cleaning and herbal wellness products.">
+  <title>Eco-Friendly Products | Green Leaf South Africa</title>
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body class="">
@@ -31,11 +35,17 @@
 <main id="main">
 
 <section class="page-hero"><div class="container"><span class="eyebrow">Products</span><h1>Simple products for thoughtful living.</h1><p class="lead">A fictional starter range showing how Green Leaf can present products clearly, with descriptions, categories and calls to action.</p></div></section>
-<section class="section"><div class="container grid-3">
-  <article class="card product-card"><img src="../media/images/Bodywash.png" alt="Botanical product illustration" srcset="../media/images/Bodywash-480.png 480w, ../media/images/Bodywash-800.png 800w, ../media/images/Bodywash-1200.png 1200w" sizes="(max-width: 620px) 100vw, (max-width: 900px) 80vw, 1200px" loading="lazy"><div class="content"><span class="tag">Personal care</span><h3>Botanical Body Wash</h3><p>Gentle plant-inspired body wash presented in a refill-friendly concept.</p><div class="price">R149</div></div></article>
-  <article class="card product-card"><img src="../media/images/Cleaning kit.png" alt="Botanical product illustration" srcset="../media/images/Cleaning kit-480.png 480w, ../media/images/Cleaning kit-800.png 800w, ../media/images/Cleaning kit-1200.png 1200w" sizes="(max-width: 620px) 100vw, (max-width: 900px) 80vw, 1200px" loading="lazy"><div class="content"><span class="tag">Home</span><h3>Herbal Cleaning Kit</h3><p>A starter kit concept for lower-waste everyday cleaning routines.</p><div class="price">R229</div></div></article>
-  <article class="card product-card"><img src="../media/images/Tea box.png" alt="Botanical product illustration" srcset="../media/images/Tea box-480.png 480w, ../media/images/Tea box-800.png 800w, ../media/images/Tea box-1200.png 1200w" sizes="(max-width: 620px) 100vw, (max-width: 900px) 80vw, 1200px" loading="lazy"><div class="content"><span class="tag">Wellness</span><h3>Leaf & Herb Tea Box</h3><p>A calming herbal tea collection presented in recyclable packaging.</p><div class="price">R119</div></div></article>
-</div></section>
+<section class="section"><div class="container">
+  <div class="catalog-tools">
+    <label for="product-search">Search products</label><input id="product-search" type="search" placeholder="Search by product or category..." aria-label="Search products">
+    <label for="product-sort">Sort products</label><select id="product-sort"><option value="default">Featured order</option><option value="name">Name A–Z</option><option value="price-low">Price: low to high</option><option value="price-high">Price: high to low</option></select>
+    <p id="product-count" class="small" aria-live="polite">Showing 3 products</p>
+  </div>
+  <div class="grid-3" id="product-list">
+  <article class="card product-card" data-product data-name="Botanical Body Wash" data-category="Personal care" data-price="149"><img src="../media/images/Bodywash.png" alt="Green Leaf Botanical Body Wash product concept" srcset="../media/images/Bodywash-480.png 480w, ../media/images/Bodywash-800.png 800w, ../media/images/Bodywash-1200.png 1200w" sizes="(max-width: 620px) 100vw, (max-width: 900px) 80vw, 1200px" loading="lazy"><div class="content"><span class="tag">Personal care</span><h3>Botanical Body Wash</h3><p>Gentle plant-inspired body wash presented in a refill-friendly concept.</p><div class="price">R149</div></div></article>
+  <article class="card product-card" data-product data-name="Herbal Cleaning Kit" data-category="Home" data-price="229"><img src="../media/images/Cleaning kit.png" alt="Green Leaf Herbal Cleaning Kit product concept" srcset="../media/images/Cleaning kit-480.png 480w, ../media/images/Cleaning kit-800.png 800w, ../media/images/Cleaning kit-1200.png 1200w" sizes="(max-width: 620px) 100vw, (max-width: 900px) 80vw, 1200px" loading="lazy"><div class="content"><span class="tag">Home</span><h3>Herbal Cleaning Kit</h3><p>A starter kit concept for lower-waste everyday cleaning routines.</p><div class="price">R229</div></div></article>
+  <article class="card product-card" data-product data-name="Leaf & Herb Tea Box" data-category="Wellness" data-price="119"><img src="../media/images/Tea Box.png" alt="Green Leaf Leaf and Herb Tea Box product concept" srcset="../media/images/Tea Box-480.png 480w, ../media/images/Tea Box-800.png 800w, ../media/images/Tea Box-1200.png 1200w" sizes="(max-width: 620px) 100vw, (max-width: 900px) 80vw, 1200px" loading="lazy"><div class="content"><span class="tag">Wellness</span><h3>Leaf & Herb Tea Box</h3><p>A calming herbal tea collection presented in recyclable packaging.</p><div class="price">R119</div></div></article>
+</div></div></section>
 <section class="section"><div class="container banner"><div><h2>Need help choosing?</h2><p>Tell us what you are looking for and the Green Leaf team can guide your enquiry.</p></div><a class="btn btn-secondary" href="enquiry.html">Ask Green Leaf</a></div></section>
 
 </main>
